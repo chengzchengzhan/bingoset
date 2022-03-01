@@ -5,8 +5,8 @@ from pathlib import Path
 import os
 from urllib.parse import urlparse
 
-# MAX_RESULTS = 250
-# GROUP_SIZE = 50
+MAX_RESULTS = 100
+GROUP_SIZE = 20
 
 def get_images_bing(search_term, API_KEY, MAX_RESULTS, GROUP_SIZE, BASE_FOLDER_NAME):
 
